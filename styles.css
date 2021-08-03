@@ -1,0 +1,451 @@
+*html {
+    margin: 0px;
+    padding: 0px;
+    display: block !important;
+}
+
+body {
+    font-family: 'Poppins';
+}
+
+p {
+    letter-spacing: 2px;
+    line-height: 35px;
+ }
+
+
+input, textarea {
+     border: none !important;
+     border-bottom: 1px solid rgb(102, 101, 101) !important;
+ }
+
+
+#hero-h1, #hero-h2 {
+    color: #c2b280;
+}
+
+
+
+/* Header */
+
+    header {
+        /* background: rgb(255,255,255);
+        background: linear-gradient(-1662deg, rgba(255,255,255,1) 53%, rgba(162, 141, 214, 1) 74%, rgb(106, 23, 184) 98%); */
+        background:url(/images/layered-waves-haikei.svg);
+        background-size: cover;
+        overflow: visible;
+    }
+
+    /* Navbar */
+
+    .navbar-expand-lg {
+        background: #fff;
+    }
+
+    .navbar-brand {
+        color: #000;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .nav-link {
+        color: #000;
+        font-weight:425;
+    }
+    .navbar-brand:hover, .nav-link:hover {
+        color: #8559f7
+    }
+
+    .navbar-toggler:focus,
+    .navbar-toggler:active,
+    .navbar-toggler-icon:focus {
+        outline: none;
+        box-shadow: none;
+    }
+
+
+
+    /* Remove border from toggler */
+    .navbar-toggler {
+        border: 0;
+    }
+
+    .navbar-toggler:focus,
+    .navbar-toggler:active,
+    .navbar-toggler-icon:focus {
+        outline: none;
+        box-shadow: none;
+        border: 0;
+    }
+
+    /* Lines of the Toggler */
+    .toggler-icon{
+        width: 30px;
+        height: 3px;
+        background-color: #8559f7;
+
+        display: block;
+        transition: all 0.2s;
+    }
+
+    /* Adds Space between the lines */
+    .middle-bar{
+        margin: 5px auto;
+    }
+
+    /* State when navbar is opened (START) */
+    .navbar-toggler .top-bar {
+        transform: rotate(45deg);
+        transform-origin: 10% 10%;
+    }
+
+    .navbar-toggler .middle-bar {
+        opacity: 0;
+        filter: alpha(opacity=0);
+    }
+
+    .navbar-toggler .bottom-bar {
+        transform: rotate(-45deg);
+        transform-origin: 10% 90%;
+    }
+    /* State when navbar is opened (END) */
+
+    /* State when navbar is collapsed (START) */
+    .navbar-toggler.collapsed .top-bar {
+        transform: rotate(0);
+    }
+
+    .navbar-toggler.collapsed .middle-bar {
+        opacity: 1;
+        filter: alpha(opacity=100);
+    }
+
+    .navbar-toggler.collapsed .bottom-bar {
+        transform: rotate(0);
+    }
+    /* State when navbar is collapsed (END) */
+
+    /* Color of Toggler when collapsed */
+    .navbar-toggler.collapsed .toggler-icon {
+        background-color: #535252;
+    }
+
+
+
+    /* Hero */
+    
+    .svg-hero {
+        position: absolute;
+        top: 250px;
+        width: 50%;
+        right: 45px;
+    }
+
+    .hero {
+        padding: 150px 0px 0px 0px;
+    }
+
+
+
+    .svg-hero-blob {
+        position: absolute;
+        width: 15%;
+        left: 230px;
+        top: 860px;
+    }
+
+
+    .hr-clear {
+        color: transparent;
+    }
+
+    .btn-color {
+        background: #8559F7;
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 20px;
+    }
+
+    .btn-color:hover {
+        background: #5222D0;
+        color: rgb(255, 255, 255);
+    }
+    
+    .btn-link {
+        text-decoration: none;
+        color: #fff;
+    }
+    .btn-link:hover {
+        color: rgb(255, 255, 255);
+    }
+
+    .hide-content {
+        visibility: hidden;    
+    }
+
+    .visible-content {
+        display: contents;
+    }
+
+/* Main  */
+
+    .languages-services {
+        color: #5222D0;
+        font-weight: bold;
+    }
+
+
+    .container-3-info {
+        background: red;
+    }
+
+    .project-links {
+        text-decoration: none;
+        color: #8559F7;
+    }
+    .project-links:hover {
+        color: #a28dd6;
+    }
+
+    .text-box {
+        padding-top: 200px;
+        width: 600px;
+        text-indent: 50px;
+    }
+
+    .text-box-1 {
+        padding-top: 50px;
+        width: 600px;
+    }
+
+    .svg-about-1 {
+        position: absolute;
+        width: 50%;
+        right: 0px;
+    }
+
+    .svg-about-2 {
+        position: absolute;
+        width: 50%;
+        right: 100px;
+    }
+
+    .svg-about-blob-3 {
+        width: 20%;
+        position: absolute;
+        left: 200px;
+    }
+
+    .svg-about-blob-1 {
+        background-image: url(/images/blob-2.svg);
+        background-repeat: no-repeat;
+        background-size:auto;
+        position: bottom 10px;
+        justify-content: center;
+    }
+    .svg-about-blob-2 {
+        background-image: url(/images/blob-3.svg);
+        background-repeat: no-repeat;
+        background-size:auto;
+        position: bottom 10px;
+        justify-content: center;
+    }
+
+    .svg-services {
+        position: absolute;
+        width: 50%;
+        padding-bottom: 200px;
+        top: 3170px;
+        right: 320px;
+    }
+    .svg-services-1 {
+        background-image: url(/images/blob-5.svg);
+        background-repeat: no-repeat;
+        background-size:70%;
+        justify-content: center;
+        z-index: -1;
+    }
+
+    .about-h3 {
+        margin-right: 200px;
+    }
+
+    .project {
+        border: 1px solid;
+    }
+
+
+
+
+
+
+/* Footer */
+
+
+    .email-form {
+        border-radius: 6px;
+        /* background-color: #d6cef5a8; */
+    }
+
+    .email-h3 {
+        font-weight: 450;
+    }
+
+    .icon-links {
+        font-size: 50px;
+        z-index: 5;
+      
+    }
+
+    .icon-fb {
+        color: rgb(36, 90, 190);
+    }
+
+    .icon-fb:hover {
+        color: rgb(65, 118, 216);
+    }
+
+    .icon-twitter {
+        color: rgb(56, 231, 231);
+    }
+
+    .icon-twitter:hover {
+        color: rgb(137, 238, 238);
+    }
+
+    .icon-github {
+        color: rgb(125, 28, 173);
+    }
+
+    .icon-github:hover {
+        color: rgb(194, 115, 233);
+    }
+
+    footer {
+        position: relative;
+    }
+
+    .custom-shape-divider-bottom-1623776667 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+    }
+    
+    .custom-shape-divider-bottom-1623776667 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 130px;
+        transform: rotateY(180deg);
+    }
+    
+    .custom-shape-divider-bottom-1623776667 .shape-fill {
+        fill: #8559F7;
+    }
+
+    .svg-contact {
+        position: absolute;
+        width: 50%;
+        top: 4760px;
+        z-index: -1;
+        right: 10px;
+        background-image: url(/images/blob-2.svg);
+        background-repeat: no-repeat;
+        background-size:auto;
+        justify-content: center;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+/* Moble  */
+@media (max-width: 600px) {
+
+    header {
+        background: white;
+    }
+
+    .hero {
+        padding: 40px 0px;
+    }
+
+    .hero-content {
+        z-index: 3;
+        position: relative;
+    }
+
+    .svg-hero {
+        position: absolute;
+        top: 350px;
+        width: 100%;
+        right: 0px;
+        z-index: 1;
+
+    }
+
+    .svg-hero-1 {
+        background-image: url(/images/blob-2.svg);
+        background-repeat: no-repeat;
+        background-size:auto;
+        position: bottom 10px;
+        justify-content: center;
+    }
+
+    .svg-hero-blob {
+        position: absolute;
+        top: 1400px;
+        left: 100px;
+    }
+
+    .svg-about-1 {
+        position: absolute;
+        z-index: -1;
+        top: 800px;
+        left: 300px;
+    }
+
+    .svg-about-2 {
+        position: absolute;
+        top: 2150px;
+        z-index: -1;
+        left: 10px;
+    }
+
+    .svg-about-blob-3 {
+        position: absolute;
+        top: 1800px;
+        left: 400px;
+    }
+
+    .about-me {
+        z-index: 1;
+    }
+
+    .svg-services {
+        position: absolute;
+        width: 100%;
+        top: 3500px;
+        left: 25px;
+        /* display: none; */
+    }
+
+    .svg-contact {
+        position: absolute;
+        top: 5575px;
+        right: 350px;
+    }
+
+
+}
