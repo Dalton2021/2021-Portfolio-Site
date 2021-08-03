@@ -29,9 +29,7 @@ input, textarea {
 /* Header */
 
     header {
-        /* background: rgb(255,255,255);
-        background: linear-gradient(-1662deg, rgba(255,255,255,1) 53%, rgba(162, 141, 214, 1) 74%, rgb(106, 23, 184) 98%); */
-        background:url(/images/layered-waves-haikei.svg);
+        background:url(images/layered-waves-haikei.svg);
         background-size: cover;
         overflow: visible;
     }
@@ -237,14 +235,14 @@ input, textarea {
     }
 
     .svg-about-blob-1 {
-        background-image: url(/images/blob-2.svg);
+        background-image: url(images/blob-2.svg);
         background-repeat: no-repeat;
         background-size:auto;
         position: bottom 10px;
         justify-content: center;
     }
     .svg-about-blob-2 {
-        background-image: url(/images/blob-3.svg);
+        background-image: url(images/blob-3.svg);
         background-repeat: no-repeat;
         background-size:auto;
         position: bottom 10px;
@@ -259,7 +257,7 @@ input, textarea {
         right: 320px;
     }
     .svg-services-1 {
-        background-image: url(/images/blob-5.svg);
+        background-image: url(images/blob-5.svg);
         background-repeat: no-repeat;
         background-size:70%;
         justify-content: center;
@@ -353,7 +351,7 @@ input, textarea {
         top: 4760px;
         z-index: -1;
         right: 10px;
-        background-image: url(/images/blob-2.svg);
+        background-image: url(images/blob-2.svg);
         background-repeat: no-repeat;
         background-size:auto;
         justify-content: center;
@@ -396,7 +394,7 @@ input, textarea {
     }
 
     .svg-hero-1 {
-        background-image: url(/images/blob-2.svg);
+        background-image: url(images/blob-2.svg);
         background-repeat: no-repeat;
         background-size:auto;
         position: bottom 10px;
